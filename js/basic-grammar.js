@@ -8,16 +8,14 @@
 */
 
 arr = ['html', 'css', 'js'];
-
-// var声明的具有全局作用域
+// var声明具有全局作用域
 for (var i = 0; i < arr.length; i++) {
   console.log(i);
 }
-
 console.log(i + 100); // 可以被访问到，output: 103
 
+// let声明具有局部作用域
 for (let index = 0; index < arr.length; index++) {
   console.log(index);
 }
-
-console.log(index);
+// console.log(index);   error, 访问不到

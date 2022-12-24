@@ -1,5 +1,6 @@
 // Import stylesheets
 import './style.css';
+import './js/basic-grammar.js';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');

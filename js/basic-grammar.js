@@ -18,4 +18,4 @@ console.log(i + 100); // 可以被访问到，output: 103
 for (let index = 0; index < arr.length; index++) {
   console.log(index);
 }
-// console.log(index);   error, 访问不到
+console.log(index); // error, 访问不到;
